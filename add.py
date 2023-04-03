@@ -1,28 +1,14 @@
-
-
-
-num = 1234
-
-
-# To take input from the user
-#num = int(input("Enter a number: "))
-
-# define a flag variable
-flag = False
-
-if num == 1:
-    print(num, "is not a prime number")
-elif num > 1:
-    # check for factors
-    for i in range(2, num):
+num = 11
+# If given number is greater than 1
+if num > 1:
+    # Iterate from 2 to n / 2
+    for i in range(2, int(num/2)+1):
+        # If num is divisible by any number between
+        # 2 and n / 2, it is not prime
         if (num % i) == 0:
-            # if factor is found, set flag to True
-            flag = True
-            # break out of loop
+            print(num, "is not a prime number")
             break
-
-    # check if flag is True
-    if flag:
-        print(num, "is not a prime number")
     else:
         print(num, "is a prime number")
+else:
+    print(num, "is not a prime number")
