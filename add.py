@@ -1,4 +1,4 @@
-num = 45
+num = 101
 
 # To take input from the user
 #num = int(input("Enter a number: "))
