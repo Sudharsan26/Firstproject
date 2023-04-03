@@ -1,4 +1,8 @@
-num = 32
+
+
+
+num = 1234
+
 
 # To take input from the user
 #num = int(input("Enter a number: "))
