@@ -1,7 +1,7 @@
 
 
 
-num = 1234
+num = 123
 
 
 # To take input from the user
